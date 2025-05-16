@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className='flex p-10 h-screen justify-around items-center gap-3'>
       {toggle ? <Signup  values={values} setvalues={setvalues} toggle={toggle}  settoggle={settoggle} /> : <Signin values={values} setvalues={setvalues}  toggle={toggle} settoggle={settoggle} />}
-      <Users values={values} setvalues={setvalues}  />
+      <Users values={values} setvalues={setvalues} />
     </div>
   )
 }
